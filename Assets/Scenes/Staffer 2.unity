@@ -515,7 +515,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 222791791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 630, y: 210.5, z: -10}
+  m_LocalPosition: {x: 69, y: 8.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -2132,65 +2132,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1048982504}
---- !u!1 &1074812141
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1074812143}
-  - 212: {fileID: 1074812142}
-  m_Layer: 0
-  m_Name: close_up_security_desk_01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1074812142
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1074812141}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_ReflectionProbeUsage: 0
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1cea5ec0e669b954f92047c339084bdd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
---- !u!4 &1074812143
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1074812141}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.8, y: -7.33, z: 0}
-  m_LocalScale: {x: 2.0525603, y: 2.0525608, z: 2.0525608}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
 --- !u!1 &1214711954
 GameObject:
   m_ObjectHideFlags: 0
@@ -2313,6 +2254,65 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1214711954}
+--- !u!1 &1231692775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1231692777}
+  - 212: {fileID: 1231692776}
+  m_Layer: 0
+  m_Name: DeepForest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1231692776
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1231692775}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 0
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: d3b6d7e5887554602baab879da8171d7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+--- !u!4 &1231692777
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1231692775}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.14548, y: -9.863704, z: 0}
+  m_LocalScale: {x: 2.0199728, y: 2.019973, z: 2.019973}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
 --- !u!1 &1330869758
 GameObject:
   m_ObjectHideFlags: 0
@@ -2538,7 +2538,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1403701333}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 609, y: 220.5, z: 0}
+  m_LocalPosition: {x: 48, y: 18.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -2908,8 +2908,6 @@ GameObject:
   - 114: {fileID: 1651627674}
   - 114: {fileID: 1651627684}
   - 114: {fileID: 1651627683}
-  - 114: {fileID: 1651627681}
-  - 114: {fileID: 1651627680}
   - 114: {fileID: 1651627685}
   - 114: {fileID: 1651627686}
   - 114: {fileID: 1651627689}
@@ -2921,6 +2919,17 @@ GameObject:
   - 114: {fileID: 1651627692}
   - 114: {fileID: 1651627691}
   - 114: {fileID: 1651627690}
+  - 114: {fileID: 1651627696}
+  - 114: {fileID: 1651627681}
+  - 114: {fileID: 1651627695}
+  - 114: {fileID: 1651627694}
+  - 114: {fileID: 1651627680}
+  - 114: {fileID: 1651627693}
+  - 114: {fileID: 1651627698}
+  - 114: {fileID: 1651627700}
+  - 114: {fileID: 1651627699}
+  - 114: {fileID: 1651627697}
+  - 114: {fileID: 1651627701}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2950,10 +2959,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: -351
     y: -355
-    width: 1984
+    width: 2008
     height: 1313
-  selectedBlock: {fileID: 1651627673}
-  selectedCommands: []
+  selectedBlock: {fileID: 1651627681}
+  selectedCommands:
+  - {fileID: 1651627693}
   variables: []
   description: 
   stepPause: 0
@@ -2995,8 +3005,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Good morning and welcome to Congressman Servative''s office. '
   description: 
-  character: {fileID: 1899459629}
-  portrait: {fileID: 21300000, guid: 6d4f35d4105ef3a48b5228b3906ade2c, type: 3}
+  character: {fileID: 1884274900}
+  portrait: {fileID: 21300000, guid: a79a4c2e96ba5fd418c637fe852e92d9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3082,8 +3092,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 206
-    y: 98
+    x: 205
+    y: 97
     width: 123
     height: 40
   itemId: 13
@@ -3427,8 +3437,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 727
-    y: 99
+    x: 728
+    y: 97
     width: 152
     height: 40
   itemId: 22
@@ -3502,8 +3512,9 @@ MonoBehaviour:
   itemId: 39
   errorMessage: 
   indentLevel: 0
-  text: 'You immediately regret what you''ve said. This is going to be an uphill battle.
-    You only earn 5 points for this awkward exchange. '
+  text: '"I apologize for the confusion and for sounding impertinent. Let me back
+    up and say that I appreciate your time. I was just excited to impress upon the
+    Congressman my enthusiasm about international exchange."'
   description: 
   targetBlock: {fileID: 1651627681}
   hideIfVisited: 0
@@ -3599,7 +3610,7 @@ MonoBehaviour:
   indentLevel: 0
   text: '"Can you tell me more about you? Do you have any international experiences?"'
   description: 
-  targetBlock: {fileID: 1651627671}
+  targetBlock: {fileID: 1651627692}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -3634,20 +3645,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1651627648}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 44
+  itemId: 64
   errorMessage: 
   indentLevel: 0
-  text: Try again to see if you can achieve a more positive response!
+  storyText: '"That''s alright. I appreciate your enthusiasm. Are you sure you don''t
+    want to talk to my colleague in charge of education instead?" '
   description: 
-  targetBlock: {fileID: 1651627655}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  character: {fileID: 1884274900}
+  portrait: {fileID: 21300000, guid: a79a4c2e96ba5fd418c637fe852e92d9, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &1651627681
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3661,16 +3676,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1043
-    y: 333
+    x: 921
+    y: 325
     width: 120
     height: 40
-  itemId: 43
-  blockName: Try again
+  itemId: 61
+  blockName: appeased
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1651627695}
+  - {fileID: 1651627694}
   - {fileID: 1651627680}
+  - {fileID: 1651627693}
 --- !u!114 &1651627682
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3755,8 +3773,8 @@ MonoBehaviour:
   storyText: My name is Mike Sharp and I handle the Congressman's foreign policy portfolio.
     What brings you here today?
   description: 
-  character: {fileID: 1899459629}
-  portrait: {fileID: 21300000, guid: 6d4f35d4105ef3a48b5228b3906ade2c, type: 3}
+  character: {fileID: 1884274900}
+  portrait: {fileID: 21300000, guid: a79a4c2e96ba5fd418c637fe852e92d9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3849,7 +3867,7 @@ MonoBehaviour:
   - {fileID: 1651627688}
 --- !u!114 &1651627690
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1651627648}
@@ -3876,7 +3894,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1651627691
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1651627648}
@@ -3897,7 +3915,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1651627692
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1651627648}
@@ -3919,6 +3937,214 @@ MonoBehaviour:
   commandList:
   - {fileID: 1651627691}
   - {fileID: 1651627690}
+  - {fileID: 1651627696}
+--- !u!114 &1651627693
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651627648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 65
+  errorMessage: 
+  indentLevel: 0
+  text: '"Oh, am I? Ok, maybe I should do that instead."'
+  description: 
+  targetBlock: {fileID: 1651627698}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1651627694
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651627648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Mike smiles with an understanding nod. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1651627695
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651627648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  errorMessage: 
+  indentLevel: 0
+  duration: 1
+  fadeOut: 0
+  targetView: {fileID: 1913205183}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &1651627696
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651627648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 60
+  errorMessage: 
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1651627697
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651627648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 69
+  errorMessage: 
+  indentLevel: 0
+  storyText: '"Uh...alright. Frankly, I wish you had known who the appropriate person
+    to see was. Goodbye."'
+  description: 
+  character: {fileID: 1884274900}
+  portrait: {fileID: 21300000, guid: a79a4c2e96ba5fd418c637fe852e92d9, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1651627698
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651627648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 916
+    y: 401
+    width: 132
+    height: 40
+  itemId: 66
+  blockName: Wrong answer
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1651627700}
+  - {fileID: 1651627697}
+  - {fileID: 1651627699}
+  - {fileID: 1651627701}
+--- !u!114 &1651627699
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651627648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  errorMessage: 
+  indentLevel: 0
+  text: Wrong answer! Good luck getting another meeting with him. Want to try again?
+  description: 
+  targetBlock: {fileID: 1651627659}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1651627700
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651627648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  errorMessage: 
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 1913205183}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &1651627701
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651627648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  errorMessage: 
+  indentLevel: 0
+  text: Wrong answer! Good luck getting another meeting with him. Return to Main Menu.
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
 --- !u!1 &1884274899
 GameObject:
   m_ObjectHideFlags: 0
@@ -3950,8 +4176,9 @@ MonoBehaviour:
   nameText: Mike Sharp
   nameColor: {r: 0.5001081, g: 0.6070277, b: 0.9191176, a: 0.022}
   soundEffect: {fileID: 0}
-  profileSprite: {fileID: 0}
-  portraits: []
+  profileSprite: {fileID: 21300000, guid: a79a4c2e96ba5fd418c637fe852e92d9, type: 3}
+  portraits:
+  - {fileID: 21300000, guid: a79a4c2e96ba5fd418c637fe852e92d9, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -4012,7 +4239,7 @@ GameObject:
   - 4: {fileID: 1913205184}
   - 114: {fileID: 1913205183}
   m_Layer: 0
-  m_Name: Security Desk View
+  m_Name: Servative Office View
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -4367,7 +4594,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2123018231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 598, y: 229.5, z: 0}
+  m_LocalPosition: {x: 37, y: 27.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
